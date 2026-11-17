@@ -1,4 +1,4 @@
-import { ApplicationConfig, provideBrowserGlobalErrorListeners, provideZoneChangeDetection } from '@angular/core';
+import { ApplicationConfig, provideZonelessChangeDetection } from '@angular/core';
 import { provideRouter, withComponentInputBinding } from '@angular/router';
 import { provideHttpClient, withFetch } from '@angular/common/http';
 import { routes } from './app.routes';
@@ -6,8 +6,7 @@ import { routes } from './app.routes';
 export const appConfig: ApplicationConfig = {
   providers: [
     provideHttpClient(withFetch()),
-    provideZoneChangeDetection({eventCoalescing: true}),
-    provideBrowserGlobalErrorListeners(),
+    provideZonelessChangeDetection(), // <-- Usamos el nombre oficial directo
     provideRouter(routes, withComponentInputBinding())
   ]
 };
