@@ -4,7 +4,7 @@ export interface User {
   id: number;
   name: string;
   email: string;
-  addres: {city:string};
+  address: {city:string};
 }
 
 @Component({
