@@ -88,8 +88,10 @@ npm run build
 * **Vista principal, filtrado y favoritos:**
   ![Angular](./Evidencias/EvidenciaAngular.png)
 * **Ejecución de pruebas unitarias:**
+  ![Angular](./Evidencias/EvidenciaAngular2.png)
 
 ### 2. Aplicación en React
 * **Vista principal, filtrado y favoritos:**
   ![Angular](./Evidencias/EvidenciaReact.png)
 * **Ejecución de pruebas unitarias:**
+  ![Angular](./Evidencias/EvidenciaReact2.png)
